@@ -1,0 +1,6 @@
+pytest - простой запуск тестов
+pytest -v - запуск тестов с расширенной информацией
+pytest tests/test_main.py::test_add - запуск определенной тестовой функции из файла
+pytest tests/test_main.py::test_divide[5--1--5] - запуск определенного кейса тестовой функции из файла
+pytest tests/test_main.py::TestCalculator - запуск тестового класса
+pytest tests/test_main.py::TestCalculator::test_divide - запуск определенной тестовой функции из тестового класса
